@@ -12,7 +12,7 @@
   Header, with the fields enclosed by brackets [] replaced by your own identifying
   information: "Portions Copyrighted [year] [name of copyright owner]".
 
-  Copyright 2012 ForgeRock AS. All rights reserved.
+  Copyright 2012-2017 ForgeRock AS. All rights reserved.
 -->
 <!DOCTYPE module PUBLIC
     "-//Puppy Crawl//DTD Check Configuration 1.3//EN"
@@ -109,12 +109,6 @@
   
   <!-- Require package-info.java for all packages -->
   <module name="JavadocPackage" />
-
-  <!--  Use header file template passed in from Maven -->
-  <module name="RegexpHeader">
-    <property name="headerFile" value="${checkstyle.header.file}" />
-    <property name="multiLines" value="1,2,3" />
-  </module>
 
   <module name="TreeWalker">
   
